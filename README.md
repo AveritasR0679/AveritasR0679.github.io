@@ -1,1 +1,1 @@
-# CalcGod
+# ICT Project - Restaurant App
