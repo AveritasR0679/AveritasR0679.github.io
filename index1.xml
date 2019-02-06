@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XZ>
+          <!-- Required meta tags -->
+       <META charset="utf-8"></META>
+       <META name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></META>
+       <TITLE>∫e^xY</TITLE>
+       <LINK rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></LINK>
+       <LINK rel="stylesheet" href="css/bootstrap4-neon-glow.min.css"></LINK>
+       <LINK href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"></LINK>
+       <LINK rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css"></LINK>
+       <DIV class="navbar-dark text-white">
+              <DIV class="container">
+                     <NAV class="navbar px-0 navbar-expand-lg navbar-dark">
+                            <BUTTON class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                                   <SPAN class="navbar-toggler-icon"></SPAN>
+                               </BUTTON>
+                            <DIV class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                   <DIV class="navbar-nav">
+                                          <A href="index.html" class="pl-md-0 p-3 text-light">Start</A>
+                                          <A href="app.html" class="p-3 text-decoration-none text-light">App example</A>
+                                          <A href="form.html" class="p-3 text-decoration-none text-light">Form example</A>
+                                      </DIV>
+                               </DIV>
+                        </NAV>
+                 </DIV>
+          </DIV>
+       <DIV class="jumbotron bg-transparent mb-0 radius-0">
+              <DIV class="container">
+                     <DIV class="row">
+                            <DIV class="col-xl-6">
+                                   <H1 class="display-2">Neon Glo
+                                          <SPAN class="vim-caret">w</SPAN>
+                                      </H1>
+                                   <DIV class="lead mb-3 text-mono text-success">This is a starter template with a jumbotron</DIV>
+                                   <DIV class="text-mono">
+                                          <A href="#!" title="Download Theme" class="btn btn-success btn-shadow px-3 my-2 ml-0 text-left">A Button</A>
+                                          <A href="#!" class="btn btn-danger btn-shadow px-3 my-2 ml-0 ml-sm-1 text-left">Another Button</A>
+                                      </DIV>
+                                   <DIV class="text-darkgrey text-mono my-2">Some muted text</DIV>
+                                   <P class="mt-5 text-grey text-spacey">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, dignissimos provident. Alias, aliquid, cum cumque deleniti dignissimos eos exercitationem explicabo illum inventore laboriosam nihil nobis nostrum praesentium recusandae sequi, sint!</P>
+                               </DIV>
+                        </DIV>
+                 </DIV>
+          </DIV>
+       <DIV class="container py-5">
+              <H1>Thanks</H1>
+              <P>Thank you for downloading this theme. If you have trouble or find a bug, please open an issue on GitHub:
+                     <BR></BR>
+                     <A href="https://github.com/HackerThemes/theme-machine">https://github.com/HackerThemes/theme-machine</A>
+                 </P>
+          </DIV>
+          <!-- Optional JavaScript -->
+          <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+       <SCRIPT src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></SCRIPT>
+       <SCRIPT src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></SCRIPT>
+       <SCRIPT src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></SCRIPT>
+   </XZ>
