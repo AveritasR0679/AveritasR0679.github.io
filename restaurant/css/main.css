@@ -279,7 +279,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 /*--
     blog Start
 --*/
-#blog {
+#menu {
   padding-top: 75px;
   padding-bottom: 100px;
   background: url("../images/blog/blog-bg.jpg");
@@ -288,7 +288,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background-attachment: fixed;
   position: relative;
 }
-#blog:before {
+#menu:before {
   content: "";
   position: absolute;
   left: 0;
@@ -300,13 +300,13 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: url("../images/overlay-pattern.png") #000000;
   opacity: 0.3;
 }
-#blog .block .heading {
+#menu .block .heading {
   color: #fff;
 }
-#blog .block ul {
+#menu .block ul {
   padding-top: 40px;
 }
-#blog .block ul li {
+#menu .block ul li {
   overflow: hidden;
   width: 50%;
   float: left;
@@ -315,16 +315,16 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   color: #959595;
   transform: 1s;
 }
-#blog .block ul li:hover img {
+#menu .block ul li:hover img {
   transform: scale(1.2) rotate(10deg);
 }
-#blog .block ul li h3 {
+#menu .block ul li h3 {
   color: #323232;
   padding: 0px 40px 20px;
   line-height: 26px;
   position: relative;
 }
-#blog .block ul li h3:before {
+#menu .block ul li h3:before {
   content: "";
   position: absolute;
   left: 50%;
@@ -334,33 +334,33 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: #CBC4B5;
   margin-left: -45px;
 }
-#blog .block ul li p {
+#menu .block ul li p {
   padding-top: 25px;
 }
-#blog .block ul li .blog-img {
+#menu .block ul li .blog-img {
   float: left;
   width: 50%;
   height: 100%;
   background: red;
   overflow: hidden;
 }
-#blog .block ul li .blog-img img {
+#menu .block ul li .blog-img img {
   -webkit-transition: all 0.8s ease-out;
   -o-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
 }
-#blog .block ul li .blog-img-2 {
+#menu .block ul li .blog-img-2 {
   width: 50%;
   float: right;
   overflow: hidden;
 }
-#blog .block ul li .blog-img-2 img {
+#menu .block ul li .blog-img-2 img {
   -webkit-transition: all 0.8s ease-out;
   -o-transition: all 0.8s ease-out;
   transition: all 0.8s ease-out;
   width: 100%;
 }
-#blog .block ul li .content-right {
+#menu .block ul li .content-right {
   padding: 40px 35px 23px;
   font-size: 16px;
   line-height: 26px;
@@ -369,7 +369,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   height: 100%;
   position: relative;
 }
-#blog .block ul li .content-right:after {
+#menu .block ul li .content-right:after {
   content: "";
   position: absolute;
   left: 0;
@@ -383,7 +383,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   transform: rotate(45deg);
   margin-left: -15px;
 }
-#blog .block ul li .content-left {
+#menu .block ul li .content-left {
   padding: 40px 35px 23px;
   width: 50%;
   height: 100%;
@@ -391,7 +391,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   position: relative;
   z-index: 999;
 }
-#blog .block ul li .content-left:after {
+#menu .block ul li .content-left:after {
   content: "";
   position: absolute;
   right: -15px;
@@ -402,7 +402,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   background: #fff;
   transform: rotate(45deg);
 }
-#blog .block .btn-more-info {
+#menu .block .btn-more-info {
   float: right;
   padding: 28px 102.5px;
   border-radius: 0px;
@@ -416,7 +416,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   -o-transition: .3s all;
   transition: .3s all;
 }
-#blog .block .btn-more-info:hover {
+#menu .block .btn-more-info:hover {
   background: transparent;
   color: #ff530a;
   border: 1px solid #ff530a;
