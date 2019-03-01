@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+        <meta name="author" content="StevenY">
+        <meta name="description content="restaurant">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Life of Pie</title>
+		<!-- CSS -->
+		<!--<link rel="stylesheet" href="css/owl.carousel.css">-->
+        <!--&lt;!&ndash; bootstrap.min css &ndash;&gt;-->
+		<!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+        <!--&lt;!&ndash; Font-awesome.min css &ndash;&gt;-->
+		<!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+        <!--&lt;!&ndash; Main Stylesheet &ndash;&gt;-->
+        <!--<link rel="stylesheet" href="css/animate.min.css">-->
+
+		<!--<link rel="stylesheet" href="css/main.css">-->
+        <!--&lt;!&ndash; Responsive Stylesheet &ndash;&gt;-->
+		<!--<link rel="stylesheet" href="css/responsive.css">-->
+        <!--new css-->
+        <link rel="stylesheet" href="new.css">
+	</head>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <body>
+<!--header-->
+<section id="header">
+    <div class="header">
+    <!--dropdown menu starts here-->
+
+    <div class="dropdown">
+        <button class="dropbtn">
+            <img class="dd" src="images/dropdown.png" alt="dropdown">
+        </button>
+        <div class="dropdown-content">
+            <a href="#about-us">About Us</a>
+            <a href="#div2">Menu</a>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#footer">Additional Info</a>
+            <a href="#"
+            <a href="#bookingApi">Book Now</a>
+        </div>
+    </div>
+    <!--dropdown menu ends here-->
+
+        <!--<h1 class="h1">-->
+            <!--Life of Pie-->
+        <!--</h1>-->
+
+    <!--logo starts here-->
+    <div class="logo" id="navbar">
+        <a href="#">
+            <img class="pic1" src="images/logo.png" alt="pi" title="pi">
+        </a>
+    </div>
+    </div>
+</section>
+<!--header ends-->
+    <!--
+    about-us start
+    ============================== -->
+    <section id="about-us">
+        <div class="about-us" id="div1">
+                        <h1 class="h1"> The <span class="span1">Best</span> Place</br> for Dessert - <span>Life of Pie</span>
+                        </h1>
+            <video class="video" autoplay="autoplay" controls="controls" muted="muted">
+                <source src="images/pieVideo.mp4" type="video/mp4">
+            </video>
+        </div><!-- .containe close -->
+    </section><!-- #call-to-action close -->
+
+    <!--menu-->
+
+    <section id="menu">
+        <div class="container" id="div2">
+            <h1>Menu</h1>
+            <table>
+                <tr>
+                    <th>Apple Rose Pie</th>
+                    <th>Chicken Pot Pie</th>
+                    <th>Dragon Pie</th>
+                    <th>Octopus Pie</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="images/blog/appleRosePie.jpg">
+                    </td>
+                    <td>
+                        <img src="images/blog/chickenPotPie.jpg">
+                    </td>
+                    <td>
+                        <img src="images/blog/dragonpie.jpg">
+                    </td>
+                    <td>
+                        <img src="images/blog/octopusPie.jpg">
+                    </td>
+                </tr>
+            </table>
+        </div><!-- .containe close -->
+    </section><!-- #blog close -->
+
+
+    <!--
+    CONTACT US  start
+    ============================= -->
+    <section id="contact-us">
+        <form action="/action_page.php">
+            <div class="container">
+                <h2>Subscribe to our Newsletter</h2>
+                <p>Get updates on new recipe ideas!</p>
+            </div>
+
+            <div class="container" style="background-color:white">
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required>
+                <label>
+                    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                </label>
+            </div><!-- .container close -->
+    </section><!-- #contact-us close -->
+    <!--
+    footer  start
+    ============================= -->
+    <section id="footer">
+        <div class="container">
+                <div>
+                        <h1>CONTACT <span>INFO</span></h1>
+                        <div class="info">
+                            <ul>
+                                <li>
+                                  <h4><i class="fa fa-phone"></i>Telephone</h4>
+                                  <p>(1)666 - LIFE - ofPI / 666 666 666 666</p>
+                                    
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-map-marker"></i>Address</h4>
+                                  <p>2019 Life of Pi Street, Ontario</p>
+                                </li>
+                                <li>
+                                  <h4><i class="fa fa-envelope"></i>E-mail</h4>
+                                  <p>3.1415926@gmail.com or lifeofpie@calc.com</p>
+                                  
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+
+                <!-- .col-md-4 close -->
+                    <div>
+                        <h1>Coupon <span>99% off</span></h1>
+                        <div class="blog">
+                            <ul>
+                                <li>
+                                    <h4><a href="#!">Chicken Pot Pie</a></h4>
+                                    <p>Reg: $100</p>
+                                    <p>Now: $1</p>
+                                    <p>
+                                        <img src="images/smallchickenPotPie.jpg" title="chicken pot pie">
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4><a href="#!">Octopus Pie</a></h4>
+                                    <p>Reg: $100</p>
+                                    <p>Now: $1</p>
+                                    <p>
+                                        <img src="images/smalloctopusPie.jpg" title="octopus pie">
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4><a href="#!">Dragon Pie</a></h4>
+                                    <p>Reg: $100</p>
+                                    <p>Now: $1</p>
+                                    <p>
+                                        <img src="images/smalldragonpie.jpg" title="dragon pie">
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4><a href="#!">Pie of Pi</a></h4>
+                                    <p>Reg: $100</p>
+                                    <p>Now: $1</p>
+                                    <p>
+                                        <img src="images/smallPi_Pie.jpg" title="pie of pi">
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+        </div><!-- .container close -->
+    </section><!-- #footer close -->
+
+<!--<iframe src="https://www.sagenda.net/Frontend/5c788a7eddf1fa6e841b95ee" width="1050" height="1200" frameborder="0" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms"></iframe>-->
+
+<!--calender and booking system starts here-->
+<section id="calendar">
+    <div class="container">
+        <h1>Important Dates</h1>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ff6666&amp;src=5em2o2im87c1gg3qpub3rdeqrk%40group.calendar.google.com&amp;color=%2342104A&amp;ctz=America%2FVancouver" style="border-width:0" width="600" height="600" frameborder="0"></iframe>
+    </div>
+</section>
+
+<section id="bookingApi">
+    <div class="container">
+        <h1>Book Now!</h1>
+        <iframe src="https://www.sagenda.net/Frontend/5c788a7eddf1fa6e841b95ee" width="1050" height="1200" frameborder="0" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms"></iframe>
+    </div>
+</section>
+<!--end of api-->
+
+    <!--
+    footer-bottom  start
+    ============================= -->
+    <footer id="footer-bottom">
+        <div class="footer">
+            <p>ICT Restaurant Assignment - <a href="https://averitasr0679.github.io">∫e^xY</a></p>
+            <p>Reference: <a href="https://www.youtube.com/watch?v=2QeKExMgyHQ">How to Make a Pie Crust</a></p>
+        </div>
+    </footer>
+	</body>
+</html>
