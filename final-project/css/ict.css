@@ -1,0 +1,138 @@
+.carousel-inner img {
+    width: 100%;
+}
+
+html, body{
+    height: 100%;
+    /*z-index: 1;*/
+}
+
+.parallax {
+    margin-top: 20px;
+    background-image: url(../img/bg1.png);
+    /* Full height */
+    height: 400px;
+
+     /*Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax-fix-margin {
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.customDiv {
+    padding-top: 100px;
+    text-align: center;
+}
+
+footer {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.icon1 {
+    width: 110%;
+    padding-bottom: 2px;
+}
+
+.myContainer {
+    height: 1000px;
+}
+
+.sectionFix {
+    padding-top: 50px;
+}
+
+.sliderFix {
+    padding-top: 55px;
+}
+
+.headingInfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sec-h1 {
+    padding-top: 20px;
+}
+
+.parallax-txt {
+    padding-top: 125px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.jumbotron-white {
+    background-color: white;
+}
+
+.div-pic-1 {
+    padding-top: 20px;
+}
+
+.pic-1 {
+    width: 500px;
+}
+
+.p-padding {
+    padding-bottom: 20px;
+}
+
+.pic-1-fix-1 {
+    position: relative;
+    right:13px;
+}
+
+.pic-1-fix-2 {
+    position: relative;
+    right:14px;
+    padding-bottom: 20px;
+}
+
+.pic-1-fix-3 {
+    position: relative;
+    right: 16px;
+}
+
+.pic-1-fix-4 {
+    position: relative;
+    right: 15px;
+    padding-bottom: 20px;
+}
+
+.pic-2 {
+    width: 300px;
+    padding-top: 20px;
+}
+
+.modal-fix {
+    position: relative;
+    top: 100px;
+    right: 140px;
+    width: 800px;"
+}
+
+.pic-2-fix-1 {
+    position: relative;
+    right: 13px;
+}
+
+.pic-2-fix-2 {
+    position: relative;
+    left: 13px;
+}
+
+.pic-3 {
+    padding-top: 60px;
+    width: 600px;
+}
+
+.h2-txt-move {
+    padding-top: 60px;
+}
